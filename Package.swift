@@ -23,12 +23,6 @@ let package = Package(
             path: "./Sources",
             cSettings: [
                 .define("FISHHOOK_EXPORT")
-            ],
-            cxxSettings: [
-                .define("FISHHOOK_EXPORT")
-            ],
-            swiftSettings: [
-                .define("FISHHOOK_EXPORT")
             ]
         ),
     ]
